@@ -32,38 +32,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "1-fireplace",
-      "name": "FirePlace",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-deck",
+      "id": "1-deck",
       "name": "Deck",
       "levels": [
         {
@@ -94,8 +63,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "3-deck-lateral",
-      "name": "Deck Lateral",
+      "id": "2-deck---lateral",
+      "name": "Deck - Lateral",
       "levels": [
         {
           "tileSize": 256,
@@ -125,7 +94,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "4-acesso-lavanderia",
+      "id": "3-acesso-lavanderia",
       "name": "Acesso Lavanderia",
       "levels": [
         {
@@ -156,8 +125,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "5-deck-superior",
-      "name": "Deck Superior",
+      "id": "4-fireplace",
+      "name": "FirePlace",
       "levels": [
         {
           "tileSize": 256,
@@ -187,8 +156,39 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "6-horta",
+      "id": "5-horta",
       "name": "Horta",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "6-deck-superior",
+      "name": "Deck Superior",
       "levels": [
         {
           "tileSize": 256,
@@ -249,7 +249,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Casa Container",
+  "name": "container",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
