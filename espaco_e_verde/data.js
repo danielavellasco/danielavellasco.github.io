@@ -156,7 +156,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "espaço_e_verde",
+  "name": "espaco_e_verde",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
