@@ -94,8 +94,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "3-sala-cientes",
-      "name": "Sala Cientes",
+      "id": "3-sala-clientes",
+      "name": "Sala Clientes",
       "levels": [
         {
           "tileSize": 256,
@@ -280,7 +280,38 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "9-copa",
+      "id": "9-escritrio---sala-interna",
+      "name": "Escritório - Sala Interna",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "10-copa",
       "name": "Copa",
       "levels": [
         {
@@ -311,7 +342,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "10-banheiro-feminino",
+      "id": "11-banheiro-feminino",
       "name": "Banheiro Feminino",
       "levels": [
         {
@@ -342,7 +373,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "11-banheiro-masculino",
+      "id": "12-banheiro-masculino",
       "name": "Banheiro Masculino",
       "levels": [
         {
@@ -373,7 +404,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "3z_realty",
+  "name": "3z Realty",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
