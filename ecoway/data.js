@@ -33,7 +33,7 @@ var APP_DATA = {
     },
     {
       "id": "1-sala-tv",
-      "name": "Sala TV",
+      "name": "Sala Tv",
       "levels": [
         {
           "tileSize": 256,
@@ -156,7 +156,38 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "5-quarto-casal",
+      "id": "5-banheiro-social",
+      "name": "Banheiro Social",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "6-quarto-casal",
       "name": "Quarto Casal",
       "levels": [
         {
@@ -187,39 +218,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "6-banho-casal",
-      "name": "Banho Casal",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "7-banheiro-social",
-      "name": "Banheiro Social",
+      "id": "7-banheiro-casal",
+      "name": "Banheiro Casal",
       "levels": [
         {
           "tileSize": 256,
@@ -249,7 +249,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Ecoway",
+  "name": "ecoway",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
