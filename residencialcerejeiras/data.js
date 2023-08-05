@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-sala-tv",
-      "name": "Sala TV",
+      "id": "0-sala-estar",
+      "name": "Sala Estar",
       "levels": [
         {
           "tileSize": 256,
@@ -28,8 +28,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "1-sala-jantar",
-      "name": "Sala Jantar",
+      "id": "1-sala-de-jantar",
+      "name": "Sala de Jantar",
       "levels": [
         {
           "tileSize": 256,
@@ -109,8 +109,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "4-escritrio",
-      "name": "Escritório",
+      "id": "4-quarto-hospedes-",
+      "name": "Quarto Hospedes ",
       "levels": [
         {
           "tileSize": 256,
@@ -136,8 +136,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "5-quarto-hospedes-",
-      "name": "Quarto Hospedes ",
+      "id": "5-escritrio",
+      "name": "Escritório",
       "levels": [
         {
           "tileSize": 256,
@@ -190,8 +190,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "7-sute-",
-      "name": "Suíte ",
+      "id": "7-sute",
+      "name": "Suíte",
       "levels": [
         {
           "tileSize": 256,
@@ -219,6 +219,33 @@ var APP_DATA = {
     {
       "id": "8-banheiro-sute-",
       "name": "Banheiro Suíte ",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "9-varanda",
+      "name": "Varanda",
       "levels": [
         {
           "tileSize": 256,
