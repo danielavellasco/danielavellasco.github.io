@@ -55,8 +55,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "2-360_quartomenino_opo1-2",
-      "name": "360_QuartoMenino_Opção1-2",
+      "id": "2-quarto-lucca---opo-2",
+      "name": "Quarto Lucca - Opção 2",
       "levels": [
         {
           "tileSize": 256,
