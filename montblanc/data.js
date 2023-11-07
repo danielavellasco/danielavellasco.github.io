@@ -156,7 +156,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "MontBlanc",
+  "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
