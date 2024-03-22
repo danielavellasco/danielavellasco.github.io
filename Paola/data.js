@@ -125,7 +125,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "Paola",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
